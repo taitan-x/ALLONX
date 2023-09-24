@@ -36,9 +36,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
         [
                InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER),
-            )
         ],
-    ]
+        ]
     return buttons
 
 close_key = InlineKeyboardMarkup(
